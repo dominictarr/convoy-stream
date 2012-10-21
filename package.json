@@ -10,6 +10,9 @@
     "duplex": "~0.2.4",
     "message-stream": "~0.1.0"
   },
+  "devDependencies": {
+    "event-stream": "~3.0.7"
+  },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
