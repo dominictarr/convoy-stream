@@ -7,10 +7,8 @@
     "url": "git://github.com/dominictarr/convoy-stream.git"
   },
   "dependencies": {
-    "duplex": "~0.2.4"
-  },
-  "devDependencies": {
-    "tap": "0.3.0"
+    "duplex": "~0.2.4",
+    "message-stream": "~0.1.0"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
