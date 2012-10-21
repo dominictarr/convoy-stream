@@ -4,7 +4,7 @@ A meta-stream for sending multiple streams down a single stream. Like
 [mux-demux](https://github.com/dominictarr/mux-demux) except in series
 instead of in parallel.
 
-<img src=https://secure.travis-ci.org/'Dominic Tarr'/convoy-stream.png?branch=master>
+[![Build Status](https://secure.travis-ci.org/dominictarr/convoy-stream.png)](http://secure.travis-ci.org/dominictarr/convoy-stream)
 
 `convoy-stream` is useful in different cases to mux-demux for example,
 replicating multiple files down a stream, or packing multiple files
